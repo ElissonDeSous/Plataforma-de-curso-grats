@@ -1,0 +1,167 @@
+section{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+.titulo{
+    margin-left: 300px;
+  
+   
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    
+}
+img ,.imagemB{
+    width: 500px;
+    height: 500px;
+}
+.HtmlImage{
+    width: 150px;
+    height: 100px;
+}
+.CssImage{
+    width:150px;
+    height: 150px;
+}
+.JSImage{
+    width: 300px;
+    height: 200px;
+}
+.PhpImage{
+    width: 300px;
+    height: 200px;
+}
+.NodeImage{
+    width: 300px;
+    height: 200px;
+}
+.MysqlImage{
+    width: 300px;
+    height: 200px;
+}
+.Tecnologias{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: #FF8551;
+}
+.tec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    background-color: #00C4FF;
+}
+.tec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 200px;
+    background-color: #F9D949;
+}
+.tec4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 200px;
+    background-color: #525FE1;
+}
+.tec5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 200px;
+    background-color: #525FE1;
+}
+.tec6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 200px;
+    background-color: #525FE1;
+}
+
+.frontend{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: solid silver 1px;
+    width: 300px;
+    height:400px;
+}
+.BackEnd{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: solid silver 1px;
+    width: 300px;
+    height:400px;
+}
+p{
+    margin: auto;
+    list-style: inside;
+}
+@media(max-width : 1000px)
+{
+    .imagemB{
+        width: 300px;
+        height: 300px;
+    }
+    .banner{
+        width: 100%;
+        display: block;
+    }
+    h1{
+        margin-left: 50px;
+        font-size: 40px;
+        display: flex;
+        position: relative;
+        right: 25px;
+        justify-content: center;
+    }
+    section{
+        height: 100%;
+        margin-top: 140px;
+    }
+    .Tecnologias{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+}
